@@ -39,3 +39,38 @@
         <h3>Opening Ceremony</h3>
         <p>A global celebration of unity and sport.</p>
         <button onclick="story1()">Read More</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b">
+        <h3>New Champions</h3>
+        <p>Athletes break records and inspire millions.</p>
+        <button onclick="story2()">Read More</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211">
+        <h3>Final Moments</h3>
+        <p>Intense competitions decide the medals.</p>
+        <button onclick="story3()">Read More</button>
+    </div>
+
+</section>
+
+<section class="info">
+    <h2>About the Olympic Games</h2>
+    <p>
+        The Olympic Games unite the world through sport, respect and excellence,
+        creating unforgettable moments every edition.
+    </p>
+</section>
+
+<footer>
+    <p>Olympic Games 2026 • School Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
