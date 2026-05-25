@@ -5,25 +5,26 @@ body{
     color:white;
 }
 
-/* NAV */
+/* NAVIGATION */
+
 nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:15px 30px;
     background:#00152b;
+    padding:15px 30px;
 }
 
 .logo{
-    font-size:20px;
-    font-weight:bold;
     color:#FFD700;
+    font-size:24px;
+    font-weight:bold;
 }
 
 .links a{
     color:white;
     text-decoration:none;
-    margin-left:15px;
+    margin-left:20px;
 }
 
 .links a:hover{
@@ -31,104 +32,161 @@ nav{
 }
 
 /* HERO */
+
 .hero{
-    height:80vh;
+    height:85vh;
+
     background:
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url("https://images.unsplash.com/photo-1521412644187-c49fa049e84d");
+
     background-size:cover;
     background-position:center;
+
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
+
     padding:20px;
 }
 
 .hero-box h1{
-    font-size:50px;
+    font-size:60px;
     color:#FFD700;
 }
 
 .hero-box p{
-    max-width:600px;
+    max-width:700px;
     margin:auto;
-    font-size:18px;
-    line-height:1.6;
+    font-size:20px;
+    line-height:1.7;
 }
 
 .hero-box button{
-    margin-top:20px;
-    padding:12px 25px;
+    margin-top:25px;
+    padding:14px 30px;
     border:none;
     background:#FF6A00;
     color:white;
-    cursor:pointer;
     border-radius:6px;
+    cursor:pointer;
 }
 
-/* TITLE */
+.hero-box button:hover{
+    background:#ff8126;
+}
+
+/* TITLES */
+
 .section-title{
     text-align:center;
-    margin:40px 0 10px;
-    color:#FFD700;
+    margin-top:50px;
 }
 
-/* CARDS */
-.cards{
+.section-title h2{
+    color:#FFD700;
+    font-size:40px;
+}
+
+/* POSTS */
+
+.posts{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    gap:20px;
-    padding:20px;
+    gap:25px;
+    padding:40px;
 }
 
-.card{
-    width:280px;
+.post{
+    width:320px;
     background:white;
     color:black;
-    border-radius:10px;
+    border-radius:12px;
     overflow:hidden;
-    text-align:center;
 }
 
-.card img{
+.post img{
     width:100%;
-    height:170px;
+    height:200px;
     object-fit:cover;
 }
 
-.card h3{
-    margin:10px 0;
+.post-content{
+    padding:20px;
 }
 
-.card p{
-    font-size:14px;
-    padding:0 10px;
+.post-content p{
+    line-height:1.6;
 }
 
-.card button{
-    margin:15px;
-    padding:8px 15px;
+.post-content button{
+    padding:10px 18px;
     border:none;
     background:#FF6A00;
     color:white;
+    border-radius:5px;
     cursor:pointer;
 }
 
-/* INFO */
-.info{
+.post-content button:hover{
+    background:#ff8126;
+}
+
+/* MEDALS */
+
+.medals{
     background:#FFD700;
     color:#002244;
     text-align:center;
-    padding:40px 20px;
-    margin-top:40px;
+    padding:50px 20px;
+}
+
+.medals table{
+    margin:auto;
+    margin-top:20px;
+    border-collapse:collapse;
+    width:70%;
+    background:white;
+    color:black;
+}
+
+.medals th,
+.medals td{
+    border:1px solid #ccc;
+    padding:15px;
+}
+
+.medals th{
+    background:#002244;
+    color:white;
+}
+
+/* INTERVIEW */
+
+.interview{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.interview-box{
+    max-width:700px;
+    margin:auto;
+    background:#00152b;
+    padding:30px;
+    border-radius:12px;
+}
+
+.interview-box h2{
+    color:#FFD700;
 }
 
 /* FOOTER */
+
 footer{
     background:#00152b;
     text-align:center;
-    padding:20px;
+    padding:25px;
     color:#ccc;
 }
