@@ -1,0 +1,15 @@
+function welcome(){
+    alert("Welcome to the Olympic Games 2026!");
+}
+
+function story1(){
+    alert("Opening ceremony celebrated global unity!");
+}
+
+function story2(){
+    alert("New champions were born!");
+}
+
+function story3(){
+    alert("Final moments were unforgettable!");
+}
