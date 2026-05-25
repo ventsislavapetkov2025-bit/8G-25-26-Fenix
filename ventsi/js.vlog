@@ -1,15 +1,23 @@
 function welcome(){
-    alert("Welcome to the Olympic Games 2026!");
+
+    alert("Добре дошъл в Olympic Vlog 2026!");
+
 }
 
 function story1(){
-    alert("Opening ceremony celebrated global unity!");
+
+    alert("История за невероятен обрат и спечелен златен медал!");
+
 }
 
 function story2(){
-    alert("New champions were born!");
+
+    alert("Шампионите разказаха за трудния си път към успеха!");
+
 }
 
 function story3(){
-    alert("Final moments were unforgettable!");
+
+    alert("Фаворитите останаха разочаровани след трудните състезания!");
+
 }
