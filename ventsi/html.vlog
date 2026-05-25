@@ -1,76 +1,219 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Olympic Games 2026</title>
+<html lang="bg">
 
-<link rel="stylesheet" href="style.css">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Olympic Vlog 2026</title>
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<nav>
-    <div class="logo">Olympics 2026</div>
-    <div class="links">
-        <a href="#">Home</a>
-        <a href="#">Events</a>
-        <a href="#">Athletes</a>
-        <a href="#">Results</a>
-    </div>
-</nav>
+    <!-- NAVIGATION -->
 
-<header class="hero">
-    <div class="hero-box">
-        <h1>Olympic Games 2026</h1>
-        <p>The world’s biggest sporting event — unity, passion and records.</p>
-        <button onclick="welcome()">Explore</button>
-    </div>
-</header>
+    <nav>
 
-<section class="section-title">
-    <h2>Top Highlights</h2>
-</section>
+        <div class="logo">
+            Olympic Vlog 2026
+        </div>
 
-<section class="cards">
+        <div class="links">
 
-    <div class="card">
-        <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d">
-        <h3>Opening Ceremony</h3>
-        <p>A global celebration of unity and sport.</p>
-        <button onclick="story1()">Read More</button>
-    </div>
+            <a href="#">Начало</a>
+            <a href="#">Истории</a>
+            <a href="#">Интервюта</a>
+            <a href="#">Медали</a>
 
-    <div class="card">
-        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b">
-        <h3>New Champions</h3>
-        <p>Athletes break records and inspire millions.</p>
-        <button onclick="story2()">Read More</button>
-    </div>
+        </div>
 
-    <div class="card">
-        <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211">
-        <h3>Final Moments</h3>
-        <p>Intense competitions decide the medals.</p>
-        <button onclick="story3()">Read More</button>
-    </div>
+    </nav>
 
-</section>
+    <!-- HERO -->
 
-<section class="info">
-    <h2>About the Olympic Games</h2>
-    <p>
-        The Olympic Games unite the world through sport, respect and excellence,
-        creating unforgettable moments every edition.
-    </p>
-</section>
+    <header class="hero">
 
-<footer>
-    <p>Olympic Games 2026 • School Project</p>
-</footer>
+        <div class="hero-box">
 
-<script src="script.js"></script>
+            <h1>Olympic Games Vlog 2026</h1>
+
+            <p>
+                Незабравими моменти, драматични обрати,
+                интервюта с победители и истории,
+                които вдъхновиха целия свят.
+            </p>
+
+            <button onclick="welcome()">
+                Разгледай историите
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- STORIES -->
+
+    <section class="section-title">
+
+        <h2>Най-интересните истории</h2>
+
+    </section>
+
+    <section class="posts">
+
+        <!-- POST 1 -->
+
+        <div class="post">
+
+            <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b">
+
+            <div class="post-content">
+
+                <h3>Пълен обрат във финала</h3>
+
+                <p>
+                    След сериозна контузия по време на сезона,
+                    младият спринтьор успя да се върне
+                    и да спечели златен медал.
+                </p>
+
+                <button onclick="story1()">
+                    Прочети повече
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- POST 2 -->
+
+        <div class="post">
+
+            <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211">
+
+            <div class="post-content">
+
+                <h3>Интервю с шампионите</h3>
+
+                <p>
+                    Победителите разказаха
+                    какво им е помогнало
+                    да стигнат до успеха.
+                </p>
+
+                <button onclick="story2()">
+                    Виж интервюто
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- POST 3 -->
+
+        <div class="post">
+
+            <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d">
+
+            <div class="post-content">
+
+                <h3>Разочарованието на фаворитите</h3>
+
+                <p>
+                    Някои фаворити не успяха
+                    да спечелят медали
+                    и останаха разочаровани.
+                </p>
+
+                <button onclick="story3()">
+                    Научи повече
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- MEDALS -->
+
+    <section class="medals">
+
+        <h2>Класация по медали</h2>
+
+        <table>
+
+            <tr>
+                <th>Държава</th>
+                <th>Златни</th>
+                <th>Сребърни</th>
+                <th>Бронзови</th>
+            </tr>
+
+            <tr>
+                <td>САЩ</td>
+                <td>42</td>
+                <td>35</td>
+                <td>30</td>
+            </tr>
+
+            <tr>
+                <td>Китай</td>
+                <td>38</td>
+                <td>29</td>
+                <td>25</td>
+            </tr>
+
+            <tr>
+                <td>Япония</td>
+                <td>25</td>
+                <td>20</td>
+                <td>18</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- INTERVIEW -->
+
+    <section class="interview">
+
+        <div class="interview-box">
+
+            <h2>Мнение на участниците</h2>
+
+            <p>
+                „Тези Олимпийски игри бяха
+                най-емоционалното събитие
+                в живота ми.“
+            </p>
+
+            <h3>
+                — Олимпийски шампион 2026
+            </h3>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            Olympic Games Vlog 2026 • School Project
+        </p>
+
+    </footer>
+
+    <!-- JS FILE -->
+    <script src="script.js"></script>
 
 </body>
 </html>
-
