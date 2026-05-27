@@ -4,9 +4,6 @@ body{
     background:#002244;
     color:white;
 }
-
-/* NAVIGATION */
-
 nav{
     display:flex;
     justify-content:space-between;
@@ -30,8 +27,6 @@ nav{
 .links a:hover{
     color:#FFD700;
 }
-
-/* HERO */
 
 .hero{
     height:85vh;
@@ -77,8 +72,6 @@ nav{
     background:#ff8126;
 }
 
-/* TITLES */
-
 .section-title{
     text-align:center;
     margin-top:50px;
@@ -88,9 +81,6 @@ nav{
     color:#FFD700;
     font-size:40px;
 }
-
-/* POSTS */
-
 .posts{
     display:flex;
     justify-content:center;
@@ -133,9 +123,6 @@ nav{
 .post-content button:hover{
     background:#ff8126;
 }
-
-/* MEDALS */
-
 .medals{
     background:#FFD700;
     color:#002244;
@@ -181,9 +168,6 @@ nav{
 .interview-box h2{
     color:#FFD700;
 }
-
-/* FOOTER */
-
 footer{
     background:#00152b;
     text-align:center;
